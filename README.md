@@ -13,7 +13,7 @@
 ```
 financetrackr/
 ├── frontend/   # React 19 + TypeScript + Tailwind
-├── backend/    # Kotlin + Spring Boot + GraphQL
+├── backend/    # Java 17 + Spring Boot + GraphQL
 ├── docs/       # Architecture diagrams, API schema, etc.
 ```
 
