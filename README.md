@@ -5,7 +5,7 @@
 ## Tech Stack
 
 - **Frontend**: React 19, TypeScript, Tailwind CSS
-- **Backend**: Kotlin, Spring Boot, GraphQL
+- **Backend**: Java 17, Spring Boot, GraphQL
 - **Database**: PostgreSQL
 - **DevOps**: GitHub Actions, Docker, AWS (planned)
 
