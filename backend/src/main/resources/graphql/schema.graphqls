@@ -1,3 +1,20 @@
-type Query {
-    hello: String!
+type Expense {
+  id: ID!
+  title: String!
+  amount: Float!
+  category: ExpenseCategory!
+  date: String!
+  notes: String
+  createdAt: String!
+  updatedAt: String!
+}
+
+enum ExpenseCategory {
+  FOOD
+  TRANSPORT
+  HOUSING
+  UTILITIES
+  ENTERTAINMENT
+  HEALTH
+  OTHER
 }
