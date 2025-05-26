@@ -12,7 +12,7 @@ import com.financetrackr.backend.repository.ExpenseRepository;
  * GraphQL resolver that handles all read/query operations for Expense data.
  */
 @Controller
-public class ExpenseResolver {
+public class ExpenseQueryResolver {
 
     private final ExpenseRepository expenseRepository;
 
@@ -20,7 +20,7 @@ public class ExpenseResolver {
      * Constructor-based injection of the ExpenseRepository.
      * @param expenseRepository the JPA repository for Expense entities.
      */
-    public ExpenseResolver(ExpenseRepository expenseRepository){
+    public ExpenseQueryResolver(ExpenseRepository expenseRepository){
         this.expenseRepository = expenseRepository;
     }
 
