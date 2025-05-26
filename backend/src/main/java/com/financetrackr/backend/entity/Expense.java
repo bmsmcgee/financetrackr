@@ -17,7 +17,7 @@ import jakarta.persistence.Table;
  * Mapped to "expense" table in PostgreSQL
  */
 @Entity
-@Table(name = "expense")
+@Table(name = "expenses")
 public class Expense {
 
     /**
