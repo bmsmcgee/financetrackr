@@ -34,3 +34,17 @@ input CreateExpenseInput {
 type Mutation {
     createExpense(input: CreateExpenseInput!): Expense!
 }
+
+input UpdateExpenseInput {
+    id: ID!
+    title: String
+    amount: Float
+    category: ExpenseCategory
+    date: String
+    notes: String
+}
+
+extend type Mutation {
+    updateExpense(input: UpdateExpenseInput!): Expense!
+    deleteExpense(id: ID!): Boolean!
+}

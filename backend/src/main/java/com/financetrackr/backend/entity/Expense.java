@@ -81,6 +81,7 @@ public class Expense {
         this.title = title;
         this.amount = amount;
         this.category = category;
+        this.date = date;
         this.notes = notes;
         this.createdAt = OffsetDateTime.now();
         this.updatedAt = OffsetDateTime.now();
