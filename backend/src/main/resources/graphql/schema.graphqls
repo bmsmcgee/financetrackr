@@ -22,3 +22,15 @@ enum ExpenseCategory {
   HEALTH
   OTHER
 }
+
+input CreateExpenseInput {
+    title: String!
+    amount: Float!
+    category: ExpenseCategory!
+    date: String!
+    notes: String
+}
+
+type Mutation {
+    createExpense(input: CreateExpenseInput!): Expense!
+}
